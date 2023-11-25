@@ -1,0 +1,127 @@
+
+body {
+    background-color: #f8f8f8; /* Slightly off-white background for the entire page */
+  }
+  .registration-container {
+    
+    width: 500px;
+    height: 600px;
+    max-width: 700px; /* Increase container size */
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #fffbfb; /* Set container background color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3); /* Add a box shadow to the entire container */
+  }
+  .cls h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .form-control {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 400px;
+    font-size: 16px;
+    
+  }
+  
+  .error-message {
+    text-align: start;
+    color: #d9534f;
+    font-size: 14px;
+    margin-top: -19px;
+    
+  }
+  
+  .btn-primary {
+    width: 100%;
+    font-size: 16px;
+    margin-top: 150px;
+    margin-left: 40px;
+  }
+  .cls{
+    margin-top: -50px;
+    /* margin-top: 200px; */
+    width: 300px;
+    height: 500px;
+    margin-left: 40px;
+    
+  }
+
+
+  .cls label {
+   
+    margin-top: 10px;
+    padding-left: -40px;
+     /* Display the labels as block elements to position them above the inputs */
+    margin-bottom: 5px; /* Add a small space below each label */
+    font-weight: bold; /* Make the labels bold for emphasis */
+  }
+  
+ 
+  .cls1{
+    margin-left: -210px;
+    padding-top: 20px;
+    color: rgb(87, 84, 84);
+  }
+  .cls2{
+    margin-left: -246px;
+    color: rgb(87, 84, 84);
+  }
+  .cls3{
+    margin-left: -220px;
+    margin-top: 0px;
+    padding-top: 0px;
+    color: rgb(87, 84, 84);
+  }
+  .small-modal {
+    max-width: 60%; /* Adjust the max-width to your preferred size */
+    margin-left: 277px;
+    margin-top: 00px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .registration-container {
+        margin: 20px auto  ; /* Adjust margin for better spacing */
+        padding: 25px; 
+        /* Adjust padding for better spacing */
+    }
+
+    .cls {
+        margin-top: -10px; /* Adjust top margin for better spacing */
+    }
+
+    .form-control {
+        margin-top: 8px; /* Adjust top margin for better spacing */
+        font-size: 14px; /* Adjust font size for better readability */
+    }
+
+    .btn-primary {
+        margin-top: 15px; /* Adjust top margin for better spacing */
+    }
+
+    .small-modal {
+        max-width: 90%; /* Adjust max-width for better display on smaller screens */
+    }
+}
+
+
+/* Media query for screens between 768 and 992 pixels (e.g., tablets) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* Media query for screens larger than 992 pixels (e.g., desktops) */
+@media only screen and (min-width: 993px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+/* Additional styles for tablet and desktop screens */

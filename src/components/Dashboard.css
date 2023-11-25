@@ -1,0 +1,156 @@
+.addexpense {
+  width: 380px;
+    font-size: 20px;
+    height: 160px;
+    margin-top: -420px;
+ 
+    
+   
+    padding: 20px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 8px;
+    box-shadow: 0 0 10px 5px rgba(190, 189, 189, 0.3);
+    margin-left: 290px;
+}
+
+  .caption {
+    margin-bottom: 10px;
+    color: #555; /* Set your preferred text color */
+  }
+
+/* 
+ .add-button {
+    padding: 10px 20px;
+    background-color: #3498db; 
+     color: #ffffff; 
+     border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: 0.2;
+    margin-top: 7px; 
+    
+
+    
+  }
+   */
+
+  .dashboard-container.modal-open .main-content > *:not(.modal-overlay),
+.dashboard-container.modal-open .navbar,
+.dashboard-container.modal-open .sidebar {
+  filter: blur(3px);
+  
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000; /* Lower than modal's z-index */
+    
+    
+    
+   
+   
+  }
+  
+ 
+  
+ 
+  html.modal-open {
+    overflow: hidden; /* Prevent scrolling on the html element when the modal is open */
+  }
+  body.modal-open {
+    overflow: hidden; /* Prevent scrolling on the body when the modal is open */
+    margin: 0; /* Reset margin to remove any default margin */
+    padding: 0; /* Reset padding to remove any default padding */
+  }
+
+  
+ /* In your Dashboard.css file */
+/* In your Dashboard.css file */
+.addd-button{
+  padding: 10px 20px;
+  background-color: rgb(250, 250, 250); /* Set your preferred background color */
+  color: #000000; /* Set the text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px 5px rgba(190, 189, 189, 0.3);/* Add a box shadow */
+  transition: 0.2;
+  width: 380px;
+  height: 150px;
+  font-size: 30px;
+  font-weight: 700;
+
+  
+  position: absolute;
+  top: 37%;
+  right: 53%;
+}
+
+@media only screen and (max-width: 768px) {
+  .dashboard-container.modal-open{
+
+    width: 1365px;
+  }
+  .main-content{
+
+    width: 1370px;
+  }
+  .add-button {
+    right: 800px;
+    left: 290px;
+    top: 280px;
+  }
+}
+
+
+/* Media query for screens between 768 and 992 pixels (e.g., tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1290px) {
+body {
+  font-size: 18px;
+}
+.main-content{
+
+
+    width: 1400px;
+  }
+  .addd-button{
+
+    right: 800px;
+    left: 290px;
+    top: 280px;
+  }
+}
+
+/* Media query for screens larger than 992 pixels (e.g., desktops) */
+@media only screen and (min-width: 913px) {
+body {
+  font-size: 15px;
+}
+}
+
+/* Additional styles for tablet and desktop screens */
+@media only screen and (min-width: 200px) and (max-width:768px) {
+  .main-content {
+   
+    width: 1300px;
+  }
+  .addd-button{
+
+    right: 800px;
+    left: 290px;
+    top: 280px;
+  }
+
+  .total-expense,
+  .expenses-by-category,
+  .recent-transaction,
+  .add-expense-form {
+    width: 48%; /* Adjust as needed */
+  }
+}
+
+/* Styles for screens 900px and larger (small laptops) */

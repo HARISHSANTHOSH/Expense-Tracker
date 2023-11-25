@@ -1,0 +1,63 @@
+.about-page{
+    width: 800px;
+    height: 550px;
+    margin-top: -650px; /* Adjust margin-top for better positioning */
+    margin-left: 350px;
+    z-index: 999;
+    overflow: visible;
+    background-color: #fffbfb;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px; /* Add padding for better content spacing */
+    position: relative; /* Set position to relative for absolute positioning of h1 and p */
+  
+    /* Add styles for h1 and p */
+    text-align: center; /* Center-align text */
+
+
+
+
+
+}
+.about-page h1{
+    font-size: 38px;
+    margin-right: 550px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #333; /* Adjust color based on your design */
+    margin-bottom: 0px;
+    align-items: start;
+    margin-bottom: 14px;
+}
+.about-content{
+
+    width: 600px;
+}
+
+
+
+.about-content p{
+    text-align: left;
+    margin-top: 14px;
+    color: #302c2c; 
+
+
+
+}
+.about-content strong{
+
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+}
+.key-features-list {
+  
+    padding: 0; /* Remove default padding */
+    margin-left: 20px;
+  }
+  
+  .key-features-list li {
+    margin-bottom: 10px; /* Add margin between list items */
+    text-align: left;
+    color: black;
+  }

@@ -1,0 +1,84 @@
+.body{
+    
+    background-color: aqua;
+}
+
+.home-page {
+    width: 800px;
+    height: 600px;
+    margin-top: -650px; /* Adjust margin-top for better positioning */
+    margin-left: 350px;
+    z-index: 999;
+    overflow: visible;
+    background-color: #fffbfb;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px; /* Add padding for better content spacing */
+    position: relative; /* Set position to relative for absolute positioning of h1 and p */
+  
+    /* Add styles for h1 and p */
+    text-align: center; /* Center-align text */
+  }
+  
+  .home-page h1 {
+    font-size: 28px;
+    margin-right: 510px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #333; /* Adjust color based on your design */
+    margin-bottom: 0px;
+    align-items: start; /* Add margin for spacing between h1 and p */
+  }
+  
+  .home-page p {
+    font-size: 16px;
+    color: #666; /* Adjust color based on your design */
+    line-height: 1.5;
+    text-align: left;
+    margin-top: 40px; /* Set line height for better readability */
+  }
+  .innerhome{
+
+    width: 480px;
+    margin-top: 30px;
+  }
+
+  .log-image{
+
+    width: 200px;
+    margin-left: 500px;
+    margin-top: 00px;
+    height: 400px;
+    width: 530px;
+  }
+  
+
+  /* .model-overlays{
+    position: fixed;
+    top: -60%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+
+
+
+
+  } */
+
+ .home-button{
+  background-color: #3498db;
+  color: #fff;
+  width: 180px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer
+
+  
+
+
+
+
+
+ }

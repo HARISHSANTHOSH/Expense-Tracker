@@ -1,0 +1,72 @@
+.clss{
+    margin-top: 67px;
+    width: 300px;
+    height: 500px;
+    margin-left: 30px;
+    
+}
+
+.container{
+    width: 100px;
+}
+.login-container{
+    width: 500px;
+    height: 600px;
+    max-width: 700px; /* Increase container size */
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #fffbfb; /* Set container background color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3); /* Add a box shadow to the entire container */
+}
+.clss1{
+
+    margin-left: -245px;
+    padding-top: 47px;
+    margin-bottom: 6px;
+    font-weight: bold; 
+    color: rgb(87, 84, 84);
+    
+}
+.clss2{
+
+    margin-left: -210px;
+    padding-top: 45px;
+    margin-bottom: 6px;
+    font-weight:bold;
+    color: rgb(87, 84, 84);
+}
+
+.password-toggle {
+    position: absolute;
+    top: 21%;
+    font-weight: 700;
+    color: rgb(18, 35, 41);
+    left: 117%; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+    z-index: 1;
+    
+   
+
+
+    /* Add any other necessary styles */
+  }
+ 
+  .error-messageL{
+
+    
+    color: #d9534f;
+  }
+
+
+
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #003c79; /* Reset border color to default */
+  }
+  
+  /* Remove the outline on focus for form controls */
+  .form-control:focus {
+    outline: gold;
+    
+  }

@@ -1,0 +1,81 @@
+.expense-container{
+    margin-left: 720px;
+    margin-top: -160px;
+    box-shadow: 0 0 10px 5px rgba(141, 142, 143, 0.3);
+    width: 550px;
+   
+    height: 340px;
+    border-radius: 8px;
+    
+}
+.expense-container h2{
+
+    margin-right: 260px;
+    font-size: 22px;
+    padding-top: 10px;
+    color: rgb(114, 112, 110);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.expensechart{
+    margin-left: 50px;
+}
+
+@media (max-width: 768px) {
+  .expensechart {
+    max-width: 90%; /* Adjust the width for tablets */
+  }
+  .expense-container{
+    margin-top: -190px;
+    
+    width: 500px;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .expensechart {
+    max-width: 100%; /* Adjust the width for mobile devices */
+  }
+  .expense-container{
+    margin-top: -190px;
+    width: 500px;
+  
+  }
+}
+
+
+@media (max-width: 790px) {
+  .expensechart {
+    max-width: 100%;
+  /* Adjust the width for mobile devices */
+  }
+  .expense-container{
+  
+
+    max-width: 800px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1361px)  {
+  .expensechart {
+    max-width: 100%; /* Adjust the width for mobile devices */
+  }
+  .expense-container{
+  
+
+    max-width: 500px;
+  }
+}
+
+
+
+
+@media (max-width: 1200px) {
+  .expensechart {
+    max-width: 100%; /* Adjust the width for mobile devices */
+  }
+  .expense-container{
+  
+
+    max-width: 600px;
+  }
+}

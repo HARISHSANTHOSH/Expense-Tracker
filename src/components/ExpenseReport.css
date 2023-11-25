@@ -1,0 +1,192 @@
+.expense-report-container{
+
+ 
+
+ 
+ 
+ 
+
+  margin-top: 60px;
+}
+
+
+.fixed-top{
+  position: absolute;
+  left: 49%;
+  background-color: rgb(250, 250, 250);
+  border-radius: 8px;
+  width: 650px;
+  box-shadow: 0 0 10px 5px rgba(190, 189, 189, 0.3);
+ 
+  top: 25%;
+}
+.input-section{
+
+  margin-top: -730px;
+  margin-left: -120px;
+ 
+
+}
+
+.report-controls{
+  margin-left: -190px;
+ 
+ 
+}
+
+
+
+
+
+
+
+.select-label {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.select {
+  appearance: none;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+}
+
+/* Add styles for the dropdown arrow */
+.select::after {
+  content: '\25BC'; /* Unicode character for down arrow */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  
+}
+
+/* Style options */
+.select option {
+  background-color: #fff;
+  color: #333;
+  
+
+}
+
+
+.download-button {
+  padding: 12px 20px;
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 30px;
+  transition: background-color 0.3s;
+}
+.total-expenses-section{
+ 
+  height: 600px;
+
+  margin-left: 315px;
+  margin-top: 70px;
+}
+
+.total-expenses-section table {
+  background-color: rgb(250, 250, 250);
+  border-radius: 8px;
+  box-shadow: 0 0 10px 5px rgba(117, 116, 116, 0.3);
+
+  width: 30%;
+ 
+  border-collapse: collapse;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.total-expenses-section th, .total-expenses-section td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.total-expenses-section th {
+  background-color: #f2f2f2;
+}
+
+.error-messag {
+  color: red;
+  margin-top: -100px;
+  margin-right: 780px;
+}
+.error{
+
+  font-size: 30px;
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1361px)  {
+  .expense-report-container{
+
+    width: 800px;
+  }
+  .fixed-top{
+    width: 700px;
+    margin-left: 300px;
+  }
+  .report-controls{
+    margin-left: 500px;
+  
+  }
+  .input-section{
+
+    width: 1000px;
+    margin-right: 500px;
+    
+  }
+  .total-expenses-section{
+    width: 1000px;
+    margin-right: 930px;
+  }
+  
+ 
+}
+
+
+@media only screen and (min-width: 208px) and (max-width: 768px){
+
+  .expense-report-container{
+
+    width: 600px;
+  }
+  .fixed-top{
+    width: 600px;
+    margin-left: 460px;
+  }
+  .report-controls{
+    margin-left: 500px;
+  
+  }
+  .input-section{
+
+    width: 1000px;
+    margin-right: 900px;
+    
+  }
+  .total-expenses-section{
+    width: 1000px;
+    margin-right: 930px;
+  }
+  
+
+  
+
+
+
+
+}

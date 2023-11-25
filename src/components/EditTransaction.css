@@ -1,0 +1,119 @@
+/* EditTransaction.css */
+
+.edit-transaction-container-custom {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+    animation: fadeIn 0.5s ease-in-out forwards;
+    
+    
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        visibility: hidden;
+    }
+    to {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.edit-transaction-form-custom {
+    background: #fffbfb; /* Set container background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+    width: 550px;
+    /* max-width: 400px; */
+    margin: 0 auto;
+ 
+}
+
+.edit-transaction-form-custom h2 {
+    text-align: left;
+    color: red;
+    font-size: 28px;
+    
+   
+}
+
+.form-group {
+    margin-bottom: 3px;
+}
+
+.form-group label {
+    font-weight: 600;
+    margin-left: 13px;
+    margin-right: 20px;
+}
+
+.form-group input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 40px;
+    padding-left: 10px;
+    width: 300px;/* Adjust width to fit your design */
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.styled-button-cancel {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 2px solid #4CAF50;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.styled-button-save{
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 2px solid #4CAF50;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    margin-left: 330px;
+
+}
+
+
+
+
+.styled-button-save {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.styled-button-cancel {
+    background-color: #d9534f;
+    color: white;
+    border: #d9534f;
+}
+
+
+.styled-button-cancel:hover {
+    background-color: #d9533f
+}
+.styled-button-save:hover{
+    background-color: #45A049;
+}
+
+
+.edit-transaction-container-custom {
+    z-index: 1000; /* Adjust the z-index value as needed */
+  }

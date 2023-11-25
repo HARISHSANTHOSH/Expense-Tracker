@@ -1,0 +1,40 @@
+/* NavBar.css */
+
+.custom-navbar {
+    /* Add your custom styles here */
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .custom-navbar .navbar-brand {
+    font-size: 1.5em;
+  }
+  
+  .custom-navbar .nav-link {
+    color: #fff;
+    font-weight: bold;
+    margin-right: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .custom-navbar .nav-link:hover {
+    color: #ffcc00; /* Change to your desired hover color */
+  }
+  
+  .brand-text {
+    margin-left: 10px;
+    font-family: 'Arial', sans-serif; /* Change the font-family as needed */
+    font-weight: bold;
+    color: #fff; 
+  }
+  
+  .logo-image{
+    width: 35px;
+    height: 35px;
+
+    margin-left: -500px;
+  }
+
+

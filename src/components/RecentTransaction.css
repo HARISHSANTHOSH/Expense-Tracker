@@ -1,0 +1,94 @@
+/* .recent-h1 {
+    text-align: center;
+    color: #333;
+    padding-top: 0px;
+  } */
+  
+  .transaction-table {
+    width: 69%;
+    border-collapse: collapse;
+    background-color: rgb(250, 250, 250);
+    margin-top: 40px;
+    margin-left: 290px;
+    box-shadow: 0 0 10px 5px rgba(117, 116, 116, 0.3);  
+    
+  }
+  
+  .transaction-table th,
+  .transaction-table td {
+    padding: 5px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .transaction-table th {
+    background-color: #f5f5f5;
+  }
+  
+  .transaction-table tbody tr:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .transaction-table button {
+    
+    padding: 8px;
+    margin-right: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .transaction-table button:hover {
+    background-color: #45a049;
+  }
+  
+  .confirmation-message {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #dff0d8;
+    border: 1px solid #d0e9c6;
+    color: #3c763d;
+    border-radius: 4px;
+  }
+
+ /* Add the following styles to adjust the Actions column */
+.transaction-table .actions-column {
+    width: 20%;
+  }
+  
+  .transaction-table .actions-column button {
+    margin: 0; /* Remove margin for the buttons */
+  }
+  
+  .transaction-table .actions-column button:first-child {
+    margin-right: 5px; /* Apply margin only to the right of the first button */
+  }
+  
+  .transaction-table .actions-column button {
+    padding: 8px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .transaction-table .actions-column button:hover {
+    background-color: #45a049;
+  }
+
+
+
+  /* Adjust font size for smaller screens */
+@media only screen and (max-width: 768px) {
+  th, td {
+    font-size: 14px;
+  }
+
+  .actions-column button {
+    font-size: 12px;
+  }
+}

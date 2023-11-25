@@ -1,0 +1,197 @@
+.input-container{
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 600px;
+  height: 550px;
+  max-width: 700px; /* Increase container size */
+  z-index: 999;
+  overflow: visible; 
+ 
+
+  background-color: #fffbfb; /* Set container background color */
+  border-radius: 8px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+
+
+.input-container h2{
+
+  margin-left: -420px;
+  color: red;
+  font-size: 28px;
+  padding-top: 10px;
+}
+.input-container2{
+
+  margin-left: -200px;
+  margin-top: 70px;
+}
+.description{
+
+  margin-left: 62px;
+  color: rgb(45, 46, 46);
+  font-weight: 600;
+}
+.amount{
+  margin-left: -80px;
+  font-weight: 600;
+
+  
+}
+.date{
+  margin-left: 3px;
+  font-weight: 600;
+}
+.category{
+  margin-left: 41px;
+  font-weight: 600;
+}
+
+.styled-input {
+  border: 1px solid #ccc;  /* Default border color */
+  border-radius: 4px;  /* Default border radius */
+  height: 40px;
+  padding-left: 10px;
+  margin-bottom: 33px;
+}
+
+  /* Change border color when input is focused (clicked) */
+.styled-input:focus {
+      border-color: #12c557;
+      outline: none; 
+
+  
+}
+.styled-button {
+  background-color: #4CAF50; /* Green background color */
+  color: white; /* White text color */
+  border: 2px solid #4CAF50; /* Green border */
+  border-radius: 30px; /* Rounded border corners */
+  padding: 10px 20px; /* Add some padding for a better look */
+  cursor: pointer; /* Show a pointer cursor on hover */
+  transition: background-color 0.3s;
+  margin-left: -230px;
+   
+}
+
+.styled-button:hover {
+  background-color: #45A049; /* Darker green when hovering */
+}
+
+
+
+.error-border {
+  border-color: rgb(228, 47, 47);
+}
+.success-message{
+
+  margin-left: 210px;
+  font-size: 25px;
+  margin-top: -30px;
+}
+
+
+/* AddExpense.css */
+
+.form-container {
+
+  display: flex; 
+   justify-content: space-between; 
+  opacity: 0;
+  visibility: hidden;
+  max-height: 0;
+  overflow: visible;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+  animation: modalFadeIn 0.5s ease-in-out forwards;
+  border-radius: 10px;
+  width: 620px;
+  height: 550px;
+  
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+   margin-left: 390px;
+  margin-top: 90px; 
+   
+  
+  
+ 
+  
+  
+  
+} 
+.modal-open .form-container {
+  opacity: 2;
+  visibility: visible;
+  max-height: 500px; /* Adjust the max-height to fit your form content */
+  /* transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out; */
+  overflow: visible;
+  transform: translate(-50%, -50%) scale(1);
+ 
+}
+
+@keyframes modalFadeIn {
+  from {
+    transform: translate(-50%, -50%) scale(0);
+    max-height: 0;
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    transform: translate(-50%, -50%) scale(1);
+    max-height: 500px; /* Adjust the max-height to fit your form content */
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+
+.input-container {
+ 
+  flex: 1;
+}
+
+
+
+
+.form-container .close:hover,
+.close:focus {
+  color: rgb(185, 19, 19);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.form-container .close {
+  position: fixed;
+  top: 0px; /* Adjust the top position as needed */
+  right: 20px; /* Adjust the right position as needed */
+  cursor: pointer;
+  font-size: 37px;
+  font-weight: 500;
+  color: rgb(99, 96, 96);
+  /* Add any additional styling you want for the close button */
+}
+
+.custom-toast-container{
+
+
+  margin-top: -90px;
+  margin-right: 3000px;
+}
+
+.error-text {
+ 
+  background: none; /* Remove background */
+  color: red; /* Set text color to red */
+}
+.confirmations-message {
+  color: #d9534f; /* Set text color to red */
+  padding-left: 30px;
+}
+.error-messages{
+  color: #d9534f; 
+  padding-left: -16px;
+  margin-top: -24px;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
